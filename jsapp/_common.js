@@ -21,7 +21,7 @@ $(document).ready(function()  {
     crossDomain: true,
     success: function (json) {
       if(json.country == "GB") {
-        window.location.replace("http://myetherwallet.com");
+        window.location.replace("https://www.myetherwallet.com");
       }
     }
   });
